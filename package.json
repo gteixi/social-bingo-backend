@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon --watch app.js"
+    "start": "node app.js"
   },
   "repository": "https://github.com/gteixi/social-bingo-webpage-backend.git",
   "author": "gteixi <gemmateixido25@gmail.com>",

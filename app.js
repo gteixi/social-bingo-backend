@@ -11,6 +11,10 @@ app.use(router);
 const PORT = process.env.PORT || 8080;
 //
 
+app.get("/", (request, response) => {
+  response.status(200).send("this is a test");
+});
+
 app.listen(PORT, () => {
   console.log("port runing on", `${PORT}`);
 });
