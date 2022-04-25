@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 app.use(router);
 
-const port = 4000;
+const port = process.env.PORT ?? 4000;
 //
 
 app.get("/contact", (request, response) => {
