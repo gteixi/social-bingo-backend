@@ -9,7 +9,6 @@ app.use(cors());
 app.use(router);
 
 const port = 4000;
-//
 
 app.get("/contact", (request, response) => {
   response.status(200).send("this is a test");
