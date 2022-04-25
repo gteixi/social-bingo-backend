@@ -4,7 +4,8 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon --watch app.js",
-    "heroku-postbuild": "yarn run build"
+    "heroku-postbuild": "yarn run build",
+    "build": ""
   },
   "repository": "https://github.com/gteixi/social-bingo-webpage-backend.git",
   "author": "gteixi <gemmateixido25@gmail.com>",
