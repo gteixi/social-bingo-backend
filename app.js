@@ -8,13 +8,13 @@ app.use(express.json());
 app.use(cors());
 app.use(router);
 
-const port = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080;
 //
 
 app.get("/contact", (request, response) => {
   response.status(200).send("this is a test");
 });
 
-app.listen(port, () => {
-  console.log("port runing on", port);
+app.listen(PORT, () => {
+  console.log("port runing on", `${PORT}`);
 });
