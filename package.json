@@ -1,0 +1,25 @@
+{
+  "name": "social-bingo-webpage-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --watch app.js",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": "https://github.com/gteixi/social-bingo-webpage-backend.git",
+  "author": "gteixi <gemmateixido25@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "aws-sdk": "^2.1117.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
