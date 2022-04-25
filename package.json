@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon --watch app.js",
-    "build": "ng build",
-    "heroku-postbuild": "ng build --prod"
+    "start": "nodemon --watch app.js"
   },
   "repository": "https://github.com/gteixi/social-bingo-webpage-backend.git",
   "author": "gteixi <gemmateixido25@gmail.com>",
